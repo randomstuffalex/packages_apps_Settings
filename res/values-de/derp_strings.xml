@@ -468,4 +468,8 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">WLAN</string>
 
+    <!-- Experimental theme options -->
+    <string name="exp_theme_customization_title">Experimentell</string>
+    <string name="exp_theme_customization_summary">Einfach nicht benutzen</string>
+
 </resources>

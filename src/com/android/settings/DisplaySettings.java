@@ -94,6 +94,12 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.style.android"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.style.settings"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.style.systemui"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.accent_color"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.font"));

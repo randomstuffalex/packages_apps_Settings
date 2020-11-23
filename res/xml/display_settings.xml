@@ -156,6 +156,23 @@
         android:summary="@string/summary_placeholder" />
 
     <PreferenceCategory
+        android:key="exp_theme_customization_category"
+        android:title="@string/exp_theme_customization_title"
+        android:summary="@string/exp_theme_customization_summary"
+        android:order="1300"> <!-- Incremented by 100 from last order (i.e. 1100) -->
+
+        <ListPreference
+            android:key="android.theme.customization.style.android"
+            android:title="@string/theme_customization_style_android_title"/>
+        <ListPreference
+            android:key="android.theme.customization.style.settings"
+            android:title="@string/theme_customization_style_settings_title"/>
+        <ListPreference
+            android:key="android.theme.customization.style.systemui"
+            android:title="@string/theme_customization_style_systemui_title"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category"
         android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
