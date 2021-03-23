@@ -225,12 +225,6 @@
         android:ringtoneType="alarm"
         android:order="-70"/>
 
-    <!-- Screen locking sounds -->
-    <SwitchPreference
-        android:key="swap_volume_keys_on_rotation"
-        android:title="@string/swap_volume_keys_on_rotation_title"
-         android:order="-60"/>
-
     <!-- Other sounds -->
     <PreferenceCategory
           android:key="other_sounds_and_vibrations_category"
